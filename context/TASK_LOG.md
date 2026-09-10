@@ -10,4 +10,8 @@
 - 按公开发布要求排除原始对话、截图、历史压缩包、Office/PDF、第三方安装包和本机运行参数。
 - 对可公开文本、压缩包内文本和 Office XML 做个人信息及密钥模式检查；发现的本机路径仅存在于已排除资料中。
 - Git 作者邮箱改用 GitHub noreply 地址。
-- 下一步：创建公开 GitHub 仓库并推送。
+
+## 2026-09-11：完成首次公开同步
+
+- 已创建公开 GitHub 仓库 `BaNaNakx/intelligent-assembly-competition`，并将本地 `main` 设置为跟踪 `origin/main`。
+- GitHub 端已核对为 Public；远端提交、README 和 132 个公开文件均可读取。

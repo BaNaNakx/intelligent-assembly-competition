@@ -1,6 +1,12 @@
 # 项目当前状态
 
-更新时间：2026-09-10
+更新时间：2026-09-11
+
+## 云同步
+
+- 公开仓库：`https://github.com/BaNaNakx/intelligent-assembly-competition`
+- 默认分支：`main`
+- 本地分支已跟踪 `origin/main`，两台电脑通过 fast-forward 拉取和普通推送同步。
 
 ## 当前主版本
 

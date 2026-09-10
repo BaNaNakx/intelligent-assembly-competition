@@ -3,7 +3,13 @@
 ## 第一次在另一台电脑使用
 
 1. 安装 Git。
-2. 克隆公开仓库。
+2. 克隆公开仓库：
+
+   ```powershell
+   git clone https://github.com/BaNaNakx/intelligent-assembly-competition.git
+   cd intelligent-assembly-competition
+   ```
+
 3. 在 Codex 中把仓库根目录添加为本地项目。
 4. 新任务先让 Codex 使用 `intelligent-assembly-sync` 拉取并读取项目状态。
 5. 如需完整比赛资料或原始对话，使用离线迁移包单独复制，不要提交到公开仓库。
