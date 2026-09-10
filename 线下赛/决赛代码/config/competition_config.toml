@@ -1,0 +1,25 @@
+[visionmaster]
+host = "127.0.0.1"
+port = 7930
+connect_timeout_s = 5.0
+idle_timeout_s = 1.0
+max_image_bytes = 20971520
+chunk_size = 65536
+task_card_image_directory = "C:/VisionMaster/task_cards"
+task_card_capture_timeout_s = 15.0
+retry_interval_s = 0.5
+collection_timeout_s = 120.0
+[vmware]
+network_mode = "bridged"
+arcs_guest_ip = "192.168.1.12"
+
+[aubo_arcs]
+host = "192.168.1.12"
+port = 30004
+robot_name = "rob1"
+request_timeout_s = 5.0
+
+[llm]
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+model = "qwen3.7-plus"
+request_timeout_s = 60.0

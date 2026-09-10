@@ -1,0 +1,42 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*credential*
+*secret*
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Machine-local Codex state must never be synchronized
+.codex/
+
+# Public-repository privacy boundary. Full originals remain in the offline
+# transfer package beside this repository.
+/context/archive/
+/线上赛/截图/
+*.zip
+*.docx
+*.pptx
+*.pdf
+*.exe
+**/runtime/local_settings.json
+
+# Transient logs
+*.log
